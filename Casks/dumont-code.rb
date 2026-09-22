@@ -15,7 +15,7 @@ cask "dumont-code" do
   # and report the app as outdated every time it updates itself.
   auto_updates true
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Dumont Code.app"
 
